@@ -101,7 +101,7 @@ def lambda_handler(event, context):
         
     new_df = pd.DataFrame(new_rows)
     tmp_path = f"/tmp/fact_rates_staging.parquet"
-    new_df_s3_key = f"silver/banxico/cetes/{extracted_date.strftime('%Y-%m-%d')}/fact_rates_staging.parquet"
+    new_df_s3_key = f"silver/banxico/{extracted_date.strftime('%Y-%m-%d')}/fact_rates_staging.parquet"
     new_df.to_parquet(tmp_path)
 
     print(f"Uploading {tmp_path} to {new_df_s3_key}")

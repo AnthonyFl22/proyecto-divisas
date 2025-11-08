@@ -64,7 +64,7 @@ def get_product_id(product_name):
 
 
 def lambda_handler(event, context):
-    ENTITY_ID = 2
+    ENTITY_ID = 3
 
     bucket_name = 'scrapping-divisas'
     parent_folder = 'nu/'
