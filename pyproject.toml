@@ -1,0 +1,18 @@
+[project]
+name = "proyecto-divisas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "boto3>=1.40.65",
+    "cloudscraper>=1.2.71",
+    "fastparquet>=2024.11.0",
+    "fsspec>=2025.10.0",
+    "pandas>=2.3.3",
+    "playwright>=1.55.0",
+    "pyarrow>=22.0.0",
+    "requests>=2.32.5",
+    "s3fs>=0.4.2",
+]

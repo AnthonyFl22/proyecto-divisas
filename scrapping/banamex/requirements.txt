@@ -1,0 +1,5 @@
+asyncio
+pandas
+playwright
+boto3
+beautifulsoup4
